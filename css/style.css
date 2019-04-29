@@ -5,9 +5,8 @@
 /*////////// Global Styles //////////*/
 
 body {
-	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -16,5 +15,53 @@ body {
 	background: #fff;
 	padding: 0 45px 20px;
 }
+
+.image-wrapper {
+	border: 5px solid #c5c5c5;
+	width: 224px;
+	height: 143px;
+	padding: 1px;
+	margin-left: 5px;
+
+}
+
+.image-wrapper:hover{
+	border: 5px solid #455D56;
+}
+
+.first {
+	margin-left: 0;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+footer {
+	clear: both;
+	font-size: 13px;
+	margin: 20px 0;
+}
+
+#main-image {
+	border: 5px solid rgba(141, 163, 156, 1);
+}
+
+h1:hover, h2{
+	color: rgba(100,116,111,1);
+}
+
+body h1 {
+	color: rgba(141, 163, 156, 1);
+	height: auto;
+	margin: 0 0 5px 0;
+	border-bottom: 1px solid #c5c5c5;
+	font-size: 90px;
+}
+
 
 /* Write all remaining styles here */
