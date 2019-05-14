@@ -1,5 +1,12 @@
 /*////////////// Fonts //////////////*/
 
+@font-face {
+   font-family: Baskerville;
+   src: url(../fonts/Baskerville.ttc)
+}
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville')
+
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
@@ -17,4 +24,28 @@ body {
 	padding: 0 45px 20px;
 }
 
+h1 {
+font-family: "Libre Baskerville";
+font-size: 60px;
+color: rgb(160, 172, 167);
+font-weight: lighter;
+}
+
 /* Write all remaining styles here */
+
+#brandbar {
+   margin: 5px, 10px, 3px, 10px;
+   padding: 0, 0, 0, 0;
+   box-sizing: border-box;
+   line-height: 100%;
+}
+
+#feature-image { /* Got to figure out why this isn't working */
+   width: 102%;
+   border: 2px, 2px, 2px, 2px;
+   color: rgb(160, 172, 167);
+}
+
+.pics {
+   margin: 0 auto;
+}
